@@ -1,0 +1,89 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 80px;
+     color: white;
+     background-color: rgba(205, 153, 229, 0.1);
+  }
+  
+nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  li a:hover {
+    background-color:rgba(119, 21, 164, 0.3);
+  }
+
+  .name {
+    color: white;
+    font-size: 1.7rem;
+    text-decoration: none;
+  }
+
+
+  /* Main section styling starts here  */
+
+  .firstSection{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.firstSection > div{
+    width: 30%;
+}
+.leftSection{
+    font-size: 2.5rem;
+    margin: 60px;
+}
+
+.leftSection .buttons{
+  padding: 23px;
+}
+.leftSection .btn {
+  padding: 12px;
+  background-color: rgba(214, 62, 235, 0.3);
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.leftSection .btn:hover {
+  background-color:rgba(119, 21, 164, 0.3);
+}
+.rightSection img{
+    width: 25rem;
+    margin: 70px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
